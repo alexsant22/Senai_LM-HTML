@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5e5e5e;
+  padding: 1rem;
+}
+
+.titulo {
+  display: flex;
+  margin-left: 7%;
+  align-items: center;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: start;
+}
+
+.logo {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.navegate {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: #afafaf;
+}
+
+.bemVindo {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+}
