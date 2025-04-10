@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/faleConosco.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>InteliHub | Fale Conosco</title>
+  </head>
+  <body>
+    <header>
+      <section class="cabecalho">
+        <div class="logoDiv">
+          <img src="../Assets/logo 2.jpg" alt="LogoEmpresa" class="logo" />
+        </div>
+        <div class="titulo">
+          <h1>InteliHub</h1>
+        </div>
+        <nav class="navegate">
+          <h2><a href="home.html">Início</a></h2>
+          <h2><a href="faleConosco.html">Fale Conosco</a></h2>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section class="faleConosco">
+        <h1>Fale Conosco!</h1>
+        <p>
+          Tem alguma dúvida ou sugestão? Estamos aqui para ajudar! Entre em
+          contato conosco e responderemos o mais rápido possível.
+        </p>
+      </section>
+
+      <section class="sectionForm">
+        <form>
+          <div class="inputGroup">
+            <label for="nome">
+              <img src="../assets/user.png" alt="Ícone Nome" />
+              Nome Completo:
+            </label>
+            <input type="text" id="nome" placeholder="Digite seu nome..." required />
+          </div>
+      
+          <div class="inputGroup">
+            <label for="email">
+              <img src="../assets/email.png" alt="Ícone Email" />
+              E-mail:
+            </label>
+            <input type="email" id="email" placeholder="Digite seu e-mail..." required />
+          </div>
+      
+          <div class="inputGroup">
+            <label for="assunto">
+              <img src="../assets/edit.png" alt="Ícone Assunto" />
+              Assunto:
+            </label>
+            <input type="text" id="assunto" placeholder="Digite o assunto..." required />
+          </div>
+      
+          <div class="inputGroup">
+            <label for="mensagem">
+              <img src="../assets/comment.png" alt="Ícone Mensagem" />
+              Mensagem:
+            </label>
+            <textarea id="mensagem" placeholder="Digite a mensagem..." maxlength="1000" required></textarea>
+          </div>
+      
+          <div class="termosBox">
+            <input type="checkbox" id="termos" required />
+            <label for="termos">Aceito os termos de uso</label>
+          </div>
+      
+          <div class="buttonGroup">
+            <button type="button">Cancelar</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

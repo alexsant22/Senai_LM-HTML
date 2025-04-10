@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #afafaf;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5e5e5e;
+  padding: 1rem;
+  color: white;
+}
+
+.logoDiv {
+  display: flex;
+}
+
+.logo {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.titulo {
+  margin-left: 7%;
+  font-size: 1.4rem;
+}
+
+.navegate {
+  display: flex;
+  gap: 1rem;
+}
+
+.navegate a {
+  text-decoration: none;
+  color: white;
+}
+
+.faleConosco {
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.faleConosco h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.faleConosco p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.sectionForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: calc(100vh - 200px); /* Ajuste conforme necessário */
+  }
+  
+  form {
+    background-color: #bfbfbf;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Garante centralização adicional */
+  }
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.inputGroup img {
+  width: 20px;
+  height: 20px;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.inputGroup textarea {
+  resize: none;
+  height: 100px;
+}
+
+.termosBox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.termosBox label {
+  color: #333;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #5e5e5e;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+@media (max-width: 600px) {
+  .buttonGroup {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
